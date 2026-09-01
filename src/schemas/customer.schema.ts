@@ -7,7 +7,8 @@ export const createCustomerSchema = z.object({
 			1,
 			'Muito curto: esperava-se um texto com pelo menos 1 caractere.'
 		),
-	email: z.email('Endereço de e-mail inválido.')
+	email: z.email('Endereço de e-mail inválido.'),
+	imageUrl: z.url().optional()
 });
 
 export const updateCustomerSchema = z.object({
