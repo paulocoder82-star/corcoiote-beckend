@@ -1,4 +1,30 @@
 {
-    "editor.defaultFormatter": "biomejs.biome",
-    "editor.formatOnSave": true
+    "workbench.startupEditor": "none",
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+    "explorer.compactFolders": false, 
+    "editor.fontSize": 17,
+    "editor.fontFamily": "SF Mono",
+    "editor.lineHeight": 1.5,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.renderLineHighlight": "gutter",
+    "editor.guides.bracketPairs": true,
+    "editor.cursorStyle": "block",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "breadcrumbs.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.stickyScroll.enabled": false,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.cursorStyleInactive": "none",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.stickyScroll.enabled": false
+
 }
